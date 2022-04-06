@@ -1,0 +1,22 @@
+package Interface;
+
+public interface Insta {
+	abstract public void login();
+	
+
+}
+class Instagram implements Insta 
+{
+	public void login()
+	{
+		System.out.println("Implementation");
+	}
+}
+public class Driver
+{
+	public static void main(String[] args) {
+		Insta ref = new Instagram();
+		ref.login();
+		
+	}
+}

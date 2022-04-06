@@ -1,0 +1,25 @@
+package Interface;
+
+ interface Insta1 {
+
+	abstract public void login();
+	
+
+	}
+	class Instagram implements Insta1
+	{
+		public void login()
+		{
+			System.out.println("Body/Implementation");
+		}
+	}
+	// public class and file name should be same
+	//public class have the main method 
+  public class Driver1
+	{
+		public static void main(String[] args) {
+			Insta1 ref = new Instagram();
+			ref.login();
+			
+		}
+	}

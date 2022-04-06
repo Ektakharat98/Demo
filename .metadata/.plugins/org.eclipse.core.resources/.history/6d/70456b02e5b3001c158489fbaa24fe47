@@ -1,0 +1,12 @@
+package Student;
+
+public class Student {
+	
+  private String name;
+  private 
+
+	
+	public Student (String name, int number)
+	
+
+}
